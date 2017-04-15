@@ -1,0 +1,142 @@
+/*header background*/
+.header
+{
+	position:fixed;
+	width:100%;
+	background:white;
+}
+/*logo*/
+.image
+{
+	height:80px;
+	margin-left:5px;
+	margin-top:5px;
+	padding:5px;
+}
+/*logo title*/
+.spn
+{
+	color:#EA1C55;
+	font-size:30;
+	font-style:italic;
+	font-weight:bold;
+	font-family:Satisfy;
+	text-transform:uppercase;	
+}
+/*navigation menus*/
+.drop
+{
+	list-style-type:none;
+	display:inline-block;
+	padding-left:0px;
+	padding-right:30px;
+	padding-top:50px;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;	
+}
+/*navigation arrow*/
+.darrow
+{
+	font-size:9pt;
+	margin-left:5px;
+}
+/*navigation menu style*/
+.navclass ul
+{
+	color:#EA1C55;
+	font-size:15px;	
+	font-family:Bad Script;
+	font-weight:bold;
+	float:right;
+	text-transform:uppercase;
+}
+/*navigation menu hover style*/
+.navclass ul li:hover
+{
+	cursor:pointer;
+	font-size:18px;
+}
+.navclass li:hover .submenu
+{
+	display:block;	
+}
+/*submenu style*/
+ul.submenu
+{
+	list-style-type:none;
+	background-color:#BFB8B7;
+	width:140px;
+	padding-top:10px;
+	position:absolute;
+}
+.submenu 
+{
+	display:none;
+}
+/*submenu list*/
+.submenu li
+{
+	padding:5px;
+	margin-top:10px;
+}
+
+.submenu  li:hover
+{
+	font-size:18px;
+}
+/*body color*/
+.grid
+{
+	background-color:#E9E7E7;
+}
+/*hero image*/
+.image3
+{
+	left: 50%;
+   	height:500px;
+	width:900px;
+	padding:20px;
+}
+p
+{
+	text-align:justify;
+	font-size:18;	
+}
+h3
+{
+	font-family:Great Vibes;
+	font-weight:bold;
+	color:#EA1C55;;
+}
+/*three column section images*/
+.image2
+{
+	height:280px;
+	width:300px
+}
+/*two column image*/
+.image4
+{
+	margin-top:25px;
+	height:350px;
+	width:400px;
+}
+/*footer style*/
+.footer
+{
+	background-color:#ACA9A9;
+	width:100%;
+	height:230px;
+}
+/*footer content*/
+.foofont
+{
+	font-size:14px;
+}
+.foop
+{
+	text-align:center;
+	font-size:10;
+	padding-top:10px;
+}
